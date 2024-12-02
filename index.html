@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title> HTML - Desenvolvendo uma Web</title>
+    </head>
+    <body>
+        <h1>HTML - Desenvolvendo uma Web</h1>
+        <hr/>
+        <ul>
+            <li><a href="#">O que é?</a>
+            </li>
+            <li><a href="#">Como é realizado essa comunicação de código e navegação?</a>
+            </li>
+            <li><a href="#">O que são TAGS?</a>
+            </li>
+            <li><a href="#">O que são atributos?</a>
+            </li>
+            <li><a href="#">Como montar seu site básico</a>
+            </li>
+            <li><a href="#">Referências</a></li>
+        </ul>
+        <h2>O que é?</h2>
+        
+        <h3><u>Introdução</u></h3>
+        <p><blockquote> Antes de mais nada, precisamos entender o significado da palavra HTML <i><strong>"HyperText Markup Language"</strong></i>, por mais que o nome por extenso possua o termo 'linguagem', HTML não é uma linguagem de programação, é uma ferramenta  de marcação que serve para estruturar seu site/página.</blockquote>
+        </p>
+        <p>Ele organiza o conteúdo com tags que definem títulos, parágrafos, imagens e links. Basicamente, constrói a base de um site, mas ganha mais funcionalidade com CSS e JavaScript, criando experiências completas de interatividade com clientes e usuários.
+        </p>
+        <p>
+            <mark>A estrutura básica de um HTML (usualmente utilizada por todo o mundo), seria HTML(título do seu arquivo não é necessariamente HTML, mas sim o que você escolher)
+            - HEAD - BODY - HTML.</mark>
+        </p>
+        <p>
+            Existem muitas plataformas que é disponibilizada para executar projetos de HTML, sendo pagas ou open source, uma batstante utilizada que seria open source é o Visual Studio Code.
+        </p>
+        
+        <h3>Como é realizado essa comunicação de código e navegação?</h3>
+        <p> Quando acessamos um site, muitas vezes não paramos para refletir sobre como acontece a interatividade entre o usuário e a tecnologia. No entanto, essa troca é facilitada pela combinação entre o front-end e o back-end, ou seja, entre o cliente e o servidor.
+        </p>
+        <p>O front-end lida com a parte visível e interativa da aplicação, ou seja, é a ponte inicial entre o usuário e a máquina. Pode-se pensar nele como responsável pelo "efeito estético" do site ou aplicativo, proporcionando uma experiência visual e interativa. Já o back-end, por sua vez, é responsável pela parte "invisível", que trata de processar e enviar as informações solicitadas. Ele executa tarefas como armazenar dados ou realizar ações no servidor.
+            Um exemplo simples disso seria a ação de reagir a uma publicação nas redes sociais. Quando você clica no "coraçãozinho" para curtir, essa informação é enviada ao servidor, que registra sua interação, associando você àquele conteúdo. Esse tipo de operação ocorre constantemente nos bastidores dos sites e aplicativos, tornando a experiência de navegação fluída e intuitiva.
+        </p>
+        <p>
+            Caso o sistema não compreenda corretamente o que o usuário deseja fazer, uma mensagem de erro é gerada, o que acontece graças ao código que o back-end já tem preparado para lidar com esses casos. Em resumo, toda interação que temos com sites e aplicativos envolve uma complexa colaboração entre o front-end, o back-end, e o servidor, garantindo que o processo de comunicação entre usuário e sistema aconteça de forma eficiente.
+        </p>
+       
+        <h4>O que são TAG's?</h4>
+        <p>
+            No <strong>HTML</strong>, as tags são elementos essenciais para criar a estrutura de uma página web. Elas são usadas para organizar e definir diferentes tipos de conteúdo, como textos, imagens, links e muito mais. As tags são representadas por sinais de menor e maior (< e >), geralmente formando pares: uma tag de abertura (por exemplo, < p >) e uma tag de fechamento (como < /p>), que delimitam o início e o fim de um elemento.
+        </p>
+        <p>
+            Algumas tags, como a < img> e a < br>, são auto-fechantes, ou seja, basicamente não precisam de uma tag de fechamento, pois executam uma ação simples, como inserir uma imagem ou criar uma quebra de linha. Além disso, as tags podem incluir atributos, que são propriedades adicionais que alteram o comportamento ou a aparência do elemento. Os atributos são especificados dentro da tag de abertura, no formato atributo="valor". Por exemplo, o atributo src na tag < img> define o caminho da imagem, enquanto o atributo href na tag <a > indica o destino de um link.
+        </p>
+        <p>
+            Essas tags e seus atributos permitem criar páginas web dinâmicas e interativas, organizando o conteúdo de maneira clara e eficiente para os navegadores. Em resumo, as tags no HTML são fundamentais para estruturar o conteúdo e permitir que ele seja exibido corretamente na web.
+        </p>
+        
+        <h4>O que são atributos?</h4>
+        <p>
+            Os atributos são um complemento das Tag's, são características extras que fornecem informações adicionais sobre algum elemento. Eles são usados para controlar/ajustar, a aparência ou a funcionalidade de um item na página. Os atributos são inseridos dentro da tag de abertura e seguem o formato atributo="valor", permitindo modificar/personalizar o comportamento do elemento.
+        </p>
+        <p>
+            Cada atributo tem uma função específica. Por exemplo, na tag <img>, o atributo src define o caminho para o arquivo da imagem, enquanto o atributo alt fornece uma descrição alternativa da imagem. Da mesma forma, a tag <a>, responsável por links, usa o atributo href para especificar o destino do link.
+        </p>
+        <p>
+            Além de influenciar o comportamento do conteúdo, os atributos podem ser usados para identificar elementos únicos, aplicar estilos ou até mesmo manipular a página com JavaScript. Atributos como class e id são comuns para aplicar estilos com CSS ou para referenciar elementos em scripts.
+        </p>
+        <p>
+            <strong><i><u>Exemplos de atributos <sup>º</sup>:
+            </u></i></strong>
+        </p>
+        <ol>
+            <li>href: Define o endereço de destino de um link.</li>
+            <li>src: Define o caminho para o arquivo de uma imagem.</li>
+            <li>class: Aplica uma classe CSS para estilizar um elemento.</li>
+            <li>id: Atribui uma identificação única a um elemento (ex: <button id="submit">Enviar</button>).</li>
+            <p>Esses atributos tornam possível personalizar e controlar melhor os elementos em uma página, facilitando a criação de interfaces mais interativas e funcionais. Existem muitos outros atributos e TAG's, que nos ajudam a organizar e monstar nossa estrutura de WEB, que podem ser verificados em sites que possuem essa listagem.</p>
+        </ol>
+       
+       <h2> Como montar meu site - básico</h2>
+       <p>Agora que entendemos um pouco como um site funciona, vamos recapitular algumas informações.</p>
+       <p>Já entendemos que o HTML realiza a estrutura do seu site, entretanto conforme o avanço das tecnologias mundiais, foi surgindo novas tecnologias que abrangem e interagem entre elas mesma, o CSS por exemplo é comumente utilizado para estilizar todo o conteúdo e também o JavaScript.</p>
+       <p>Ele (CSS) define como os elementos do HTML aparecerão na tela, controlando espaçamentos, cores, fontes, tamanhos entre muitas outras coisas, ou seja, basicamente cuida do layout da tela, tornando a tela mais atrativa e agradável para o usuário.</p>
+       <p>Além disso é possível criar um design responsivo, ou seja, garantir que o site seja exibido em qualquer dispositivo sem lacunas indesejadas.</p>
+       <p>Já com o JavaScript por ser uma linguagem de programação, o mesmo auxilia na interatividade do usuário com o site.</p>
+       <p>Com o JavaScript, é possível realizar ações dinâmicas em uma página, como atualizar seu conteúdo sem precisar recarregar a página, validar formulários, criar animações e até interagir com o servidor de maneira assíncrona.</p>
+       <p>Em outras palavras, o JavaScript torna um site estático em uma experiência interativa e responsiva, proporcionando uma navegação mais fluída e envolvente.</p>
+       <p>Para montar um site, precisamos ter algumas ferramentas básicas e posteriormente vamos implementando novas tecnologias para nos auxiliar facilitando a fluidez de nosso site.</p>
+       <p>Caso utilizemos o visual studio code, precisamos primeiramente criar uma pasta em nosso computador onde "ficará nosso site", após isso começamos a monstar a estrutura base do nosso site, sabemos que tudo que estiver entre HTML é um HTML, tudo que estiver em HEAD seão os títulos que ficam na ABA do navegador e tudo que estiver em BODY é o que irá aparecer para o usuário.</p>
+       <p>No BODY é onde colocaremos nossos textos, tabelas, imagens e afins, utilizando as tags e atributos.
+        Posteriormente com nossos site montado podemos ajustar e personalizar o mesmo pelo CSS ou pelo próprio JavaScript.</p>
+
+        <h2>Referências</h2>
+        <li><a href= "https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" title="Clique aqui e confira" target="_blank">HTML</a></li>
+        <li><a href="https://www.youtube.com/watch?v=1ntb19o-2MI&list=PL2Fdisxwzt_cajoGVWTx44wM6Ht09QJ3A&index=3" title="clique aqui e confira" target="_blank">TAGS E ESTRUTURA</a></li>
+
+        <h4> <small>Esse texto foi escrito por Nathália de Paula Oliveira, estudante da área de tecnologia em aprendizado</small></h4>
+
+
+    
+    </body>
+</html>
